@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Kesie's Wig & Beauty Palace - Contact</title>
+
+     <link rel="stylesheet" href="css/style.css" />
+     <link rel="icon" type="image/jpeg" href="images/Kesie's Logo.jpg" />
+
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+     <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap" rel="stylesheet" />
+
+     <script src="https://kit.fontawesome.com/290c92d8f4.js" crossorigin="anonymous"></script>
+
+     <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+     </script>
+
+     <script type="text/javascript">
+         (function(){
+              emailjs.init({
+                 publicKey: "n9O7TXyvphmNfhdHz",
+             });
+         })();
+     </script>
+
+</head>
+<body>
+
+    <!-- Navbar -->
+    
+        <nav class="navbar navbar-expand-lg navbar-dark px-4" style="background-color: rgb(110, 109, 32);">
+            <a class="navbar-brand" href="index.html">
+                 <img src="images/Kesie's Logo.jpg" alt="Kesie's Logo" style="height: 80px; width: 90px; border-radius: 8px;" />
+            </a>
+                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                     <span class="navbar-toggler-icon"></span>
+                 </button>
+                     <div class="collapse navbar-collapse" id="navMenu">
+                        <ul class="navbar-nav ms-auto">
+                             <li class="nav-item"><a class="nav-link fs-4" href="index.html">HOME</a></li>
+                             <li class="nav-item"><a class="nav-link fs-4" href="services.html">SERVICES</a></li>
+                             <li class="nav-item"><a class="nav-link fs-4" href="gallery.html">GALLERY</a></li>
+                             <li class="nav-item"><a class="nav-link active fs-4" href="#">CONTACT</a></li>
+                         </ul>
+                     </div>
+        </nav>
+
+        <!-- Header Section -->
+        <section class="container-fluid text-center py-5" id="pages">
+            <div class="homepage">
+                <h1>Contact Us</h1>
+                <p>We would love to hear from you! Whether you have questions about our products, services, or anything else, feel free to reach out.</p>
+                <p>Below is a map of our location and various ways to get in contact with us.</p>
+            </div>
+        </section>
+
+
+        <!-- Contact Form -->
+         <section class="container-fluid my-5 scroll-fade" id="contactForm">
+            
+            <div class="row g-4 justify-content-center">
+
+                <div class="contactCol">
+                    <i class="fa-solid fa-house fs-1"></i>
+                    <span>
+                        <h5>Kesie's Wig & Beauty Palace</h5>
+                        <p> Lashibi, <br>
+                           Accra, Ghana.
+                        </p>
+                    </span>
+                </div>
+
+                <div class="contactCol">
+                    <i class="fa-solid fa-phone fs-1"></i>
+                    <span>
+                        <h5><a href="tel:+233246845766" 
+                         style="text-decoration: none; color: inherit;">024 684 5766</a></h5>
+                        <p>Monday to Saturday,<br>
+                           8:00 AM to 9:00 PM
+                        </p>
+                    </span>
+                </div>
+
+                <div class="contactCol">
+                     <i class="fa-solid fa-globe fs-1"></i>
+                     <span>
+                         <h5>kesieswigandbeauty.com</h5>
+                         <p>Visit our website anytime!</p>
+                     </span>
+                </div>
+
+           </div>
+       </section>
+
+                 <hr>
+
+                 <!-- Location -->
+       <section class="container my-5 scroll-fade" id="location">
+         <h1 class="text-center mb-4">Our Location</h1>
+             <div class="d-flex justify-content-center">
+                  <iframe
+                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31768.270155332546!2d-0.27496795096133186!3d5.5620132427727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf99006217bb61%3A0x801d5dfb5f8e29da!2sLashibi%20CAC!5e0!3m2!1sen!2sgh!4v1740160490058!5m2!1sen!2sgh"
+                     width="100%" height="400"
+                     style="max-width: 800px; border: 0;"
+                     allowfullscreen=""
+                     loading="lazy"
+                     referrerpolicy="no-referrer-when-downgrade">
+                 </iframe>
+             </div>
+      </section>
+
+             <hr>
+
+            <!-- Message Form -->
+     <section class="container-fluid my-5 scroll-fade" id="contactForm">
+            
+         <div class="row g-4 justify-content-center">
+
+                <div class="col-12 col-md-6">
+                  <div class="contactCol p-4 shadow rounded">
+                   <h5 class="mb-4 text-center">Feel Free To Send Us A Mail Anytime:</h5>
+                   <form onsubmit="send(); return false;">
+      
+                 <div class="mb-3">
+                     <label for="name" class="form-label">Name</label>
+                     <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name" autocomplete="name" required>
+                 </div>
+
+                 <div class="mb-3">
+                     <label for="email" class="form-label">Email</label>
+                     <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email" autocomplete="email" required>
+                 </div>
+
+                 <div class="mb-3">
+                     <label for="message" class="form-label">Message</label>
+                     <textarea id="message" name="message" class="form-control" rows="4" placeholder="Your message..." autocomplete="on" required></textarea>
+                 </div>
+
+                 <div class="d-grid">
+                     <button type="submit" class="btn btn-danger">Submit</button>
+                 </div>
+
+                  </form>
+                 </div>
+               </div>
+
+         </div>
+     </section>
+
+
+
+          
+
+
+
+      <!-- Footer -->
+     <footer class="text-center py-4" id="footers">
+          <p>&copy; 2025 Kesie's Wig & Beauty Palace. All rights reserved.</p>
+             <div class="d-flex justify-content-center gap-4 mt-3 flex-wrap">
+
+                 <!-- Phone -->
+                      <a href="tel:0246845766" class="text-decoration-none d-flex align-items-center gap-2">
+                         <i class="fa-solid fa-phone-volume fa-lg fs-1" style="color: wheat;"></i>
+                             <span style="color: white;">0246845766</span>
+                      </a>
+
+                 <!-- WhatsApp -->
+                      <a href="https://wa.me/233246845766" class="text-decoration-none d-flex align-items-center gap-2">
+                          <i class="fab fa-whatsapp fa-lg fs-1" style="color: #25D366;"></i>
+                              <span style="color: white;">0246845766</span>
+                      </a>
+
+                 <!-- Instagram -->
+                     <a href="https://www.instagram.com/kesie1wigspalace/?hl=en" target="_blank" class="text-decoration-none d-flex align-items-center gap-2">
+                         <i class="fab fa-instagram fa-lg fs-1" style="color: #E1306C;"></i>
+                             <span style="color: white;">@Kesie1wigspalace</span>
+                     </a>
+
+                 <!-- TikTok -->
+                     <a href="https://www.tiktok.com/@bernicenanaamakesie?lang=en" target="_blank" class="text-decoration-none d-flex align-items-center gap-2">
+                         <i class="fab fa-tiktok fa-lg fs-1" style="color: #000;"></i>
+                             <span style="color: white;">@Kesie1wigspalace</span>
+                     </a>
+
+            </div>
+     </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+      const scrollElements = document.querySelectorAll('.scroll-fade');
+
+          const scrollObserver = new IntersectionObserver((entries) => {
+             entries.forEach(entry => {
+                  if (entry.isIntersecting) {
+                     entry.target.classList.add('visible');
+                    }
+                });
+        }, {
+               threshold: 0.2
+            });
+
+          scrollElements.forEach(el => scrollObserver.observe(el));
+
+
+           function send() {
+           var templateParams = {
+            name: document.getElementById('name').value,
+            email: document.getElementById('email').value,
+           message: document.getElementById('message').value
+         };
+  
+     emailjs.send('service_omr4s1w', 'template_1obfbub', templateParams).then(
+        (response) => {
+            alert('SUCCESS!', response.status, response.text);
+        },
+        (error) => {
+            alert('FAILED...', error);
+        }
+     );
+       }
+
+
+    </script>
+
+
+
+    
+</body>
+</html>
