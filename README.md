@@ -3,7 +3,7 @@
 Welcome to the official repository for **Kesie's Wig & Beauty Palace**, a vibrant, responsive, and brand-consistent website built to showcase premium beauty services, 100% human hair wigs, and multidimensional user experiences.
 
 ## 🌟 Live Preview
-[Visit the Website]((https://redd-reddington.github.io/Kesie-s-Wig-And-Beauty-Palace/index.html)
+[Visit the Website]((https://redd-reddington.github.io/Kesie-s-Wig-And-Beauty-Palace/)
 
 ## 🧠 Project Overview
 
