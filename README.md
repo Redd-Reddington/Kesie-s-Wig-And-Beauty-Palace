@@ -36,3 +36,4 @@ This site was designed to reflect the elegance and professionalism of Kesie's br
 ├── images/ 
 │ └── [carousel, gallery, logo, icons...]
 
+Made with ❤️ by **Redd✍️🔴**
